@@ -3,15 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Parallax Example</title>
   </head>
   <body>
-    <div class="banner">
-      <video autoplay loop muted plays-inline>
-        <source src="zmyway.mp4" type="video/mp4">
-      </video>
+    
+    <div class="container">
+      <section class="section">
+        <video class="hidden" id="videoPlayer" controls>
+          <source src="zmyway.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+
+      <section class="section svg-section">
+
+      </section>
+
+
+      <section class="section">SCROLL UP ↑</section>  
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
